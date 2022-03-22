@@ -59,7 +59,7 @@ function MintCard(props) {
                     type="button"
                     className="ButtonPrimary    MoC"
                 >
-                    <img src="../moc/arrow.svg" alt="" />
+                    <img src={window.location.origin + '/arrow.svg'} alt="" />
                 </button>
             </div>
         </div>

@@ -42,7 +42,12 @@ function MintData(props) {
                                                                     <div className="currencyOption">
                                                                         <img
                                                                             className="currencyImage"
-                                                                            src="/moc/icon-reserve.svg"
+                                                                            src={
+                                                                                window
+                                                                                    .location
+                                                                                    .origin +
+                                                                                '/icon-reserve.svg'
+                                                                            }
                                                                             alt="RBTC"
                                                                         />
                                                                         RBTC
